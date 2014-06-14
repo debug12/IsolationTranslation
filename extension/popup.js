@@ -1,3 +1,6 @@
+var background = chrome.extension.getBackgroundPage();
+var GOGGLES_APP = background.GOGGLES_APP;
+
 window.onload = function(){
 	var UnGrammarNazi = document.getElementById("UnGrammarNazi");
 	var GrammarNazi = document.getElementById("GrammarNazi");
