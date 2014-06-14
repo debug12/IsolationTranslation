@@ -17,7 +17,7 @@ var parseWords = function(wordsArray){
 		var arraySplitBySpaces = stringToParse.split(" ");
 		var correctlySpelledWordKey = "";
 
-		if(arraySplitBySpaces[1] != '–' && arraySplitBySpaces[1] != '(UK:'){
+		if(arraySplitBySpaces[1] != '–' && arraySplitBySpaces[1] != '(UK:' && arraySplitBySpaces[1] != '(as'){
 			correctlySpelledWordKey = arraySplitBySpaces[0] + " " + arraySplitBySpaces[1];
 		}
 		else {
