@@ -15,10 +15,11 @@ var reverseParseWords = function(obj){
 	var wordObj = {};
 	var newObj = JSON.parse(obj);
 	for(var key in newObj){
+		var keyArray = [key];
 		if(newObj.hasOwnProperty(key)){
 			var incorrectSpellingArray = newObj[key];
 			for(var i = 0; i < incorrectSpellingArray.length; ++i){
-				wordObj[incorrectSpellingArray[i]] = key;
+				wordObj[incorrectSpellingArray[i]] = keyArray;
 			}
 		}
 	}
