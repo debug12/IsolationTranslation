@@ -29,4 +29,3 @@ exports.getRandomSlur = function(){ //returns only the object
 	randomSlur.Origin = wordsArray[randomNumber].Reason.text;
 	return randomSlur;
 }
-

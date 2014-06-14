@@ -1,0 +1,579 @@
+[ { Words: 
+     { text: 'absence – absense, absance[3][10]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'acceptable – acceptible [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'accidentally/accidently – accidentaly [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'accommodate – accomodate, acommodate[3][4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'achieve – acheive[3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'acknowledge – acknowlege, aknowledge[3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'acquaintance – acquaintence, aquaintance[3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'acquire – aquire, adquire [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'acquit – aquit [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'acreage – acrage, acerage[3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'address – adress[3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'adultery – adultary[3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'advisable – adviseable, advizable[3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'affect – effect[3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'aggression – agression, aggresion[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'alcohol – alchohol[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'allege – alege, allage[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'allegiance – allegaince, allegience, alegiance[3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'almost – allmost[3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'a lot – alot (must be two words)[4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'amateur – amatuer, amature [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'amend – ammend[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'annually – anually, annualy[3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'apparent – apparant, aparent [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'arctic – artic[3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'argument – arguement[1][4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'atheist – athiest[3][4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'average – avrage, averege[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'awful – awfull, aweful[3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'because – becuase[3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'becoming – becomeing[3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'beginning – begining[3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'believe – beleive [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'bellwether – bellweather[3][4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'buoy/buoyant – bouy/bouyant[3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'burglar – burgler[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'business – bisness,[1] bussiness,\nbizness, buisness',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'calendar – calender[3][4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'camouflage – camoflage, camoflague[3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'capitol – capital[3](both words exist, but are distinct)',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'Caribbean – Carribean[3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'category – catagory[3][4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'caught – cauhgt, caugt[3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'cemetery – cemetary,[1] cematery[3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'changeable – changable[3][4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'chief – cheif[3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'colleague – collaegue, collegue[3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'collectible – collectable[3][4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'column – colum [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'coming – comming[3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'committed – commited, comitted[3][4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'concede – conceed[3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'congratulate – congradulate[3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'conscientious – consciencious [3][4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'conscious – concious, consious [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'consensus – concensus[1][3][4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'controversy – contraversy[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'coolly – cooly[3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'daiquiri – dacquiri, daquiri [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'deceive – decieve[1][3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'definite – definate,[1] definit[4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'definitely – definitly,[4] definately, defiantly',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'desperate – desparate[1][3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'difference – diffrence[3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'dilemma – dilema[3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'disappoint – disapoint[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'disastrous – disasterous[3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'drunkenness – drunkeness [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'dumbbell – dumbell [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'embarrass – embarass[1][4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'equipment – equiptment (wrong in numerous webpages)[4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'exceed – excede [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'exhilarate – exilerate [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'existence – existance [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'experience – experiance [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'extreme – extreem[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'fascinating – facinating[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'fiery – firey [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'fluorescent – flourescent[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'foreign – foriegn [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'friend – freind[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'fulfil – fullfil (American: fulfill)[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'gauge – guage[1][4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'grateful – gratefull, greatful[1][4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'guarantee – garantee, garentee, garanty[1][4][10]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'guidance – guidence [11]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-ACpB-11' } },
+  { Words: 
+     { text: 'harass – harrass[1][4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'height – heighth, heigth [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'hierarchy – heirarchy [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'hors d\'oeuvres – hors derves, ordeurves[3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'humorous – humerous [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'hygiene – hygene, hygine, hiygeine, higeine, hygeine[3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'hypocrisy/hypocrite – hipocrit[1][3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'ignorance – ignorence[4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'imitate – immitate[3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'immediately – imediately[1][4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'independent – independant[4][7]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'indispensable – indispensible[4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'inoculate – innoculate[4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'intelligence – inteligence, intelligance[4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'jewelry (UK: jewellery) – jewelery[4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'judgment – judgement (issue in the U.S.)[4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'kernel – kernal, distinct from homophone colonel[4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'leisure – liesure [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'liaison – liason[1][4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'library – libary, liberry [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'license – lisence[4] (US always license, UK noun licence)[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'lightning – lightening [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'lose – loose [13]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-13' } },
+  { Words: 
+     { text: 'maintenance – maintainance, maintnance[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'medieval – medeval, medevil, mideval [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'memento – momento [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'millennium – millenium, milennium[1][4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'miniature – miniture[1][4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'minuscule – miniscule[1][4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'mischievous – mischievious, mischevous, mischevious (The spelling "mischievious" and the corresponding pronunciation are still considered non-standard despite being current and existing since at least the 16th century.)[4][14]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'misspell – mispell, misspel[1][4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'necessary – neccessary, necessery[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'niece – neice[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'neighbor – nieghbor [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'noticeable – noticable [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'occasion – occassion[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'occasionally – occasionaly, occassionally [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'occurrence – occurrance, occurence [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'occurred – occured[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'omission – ommision, omision[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'original – orignal[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'outrageous – outragous[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'parliament – parliment[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'pastime – passtime, pasttime [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'perceive – percieve[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'perseverance – perseverence [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'personnel – personell, personel[4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'plagiarize – plagerize[3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'playwright – playright, playwrite[4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'possession – posession, possesion[1][4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'potatoes – potatos[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'precede – preceed [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'presence – presance[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'principle – principal [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'privilege – privelege, priviledge[1][4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'professor – professer[3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'promise – promiss [11]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-ACpB-11' } },
+  { Words: 
+     { text: 'pronunciation – pronounciation [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'proof – prufe [12]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-ACpC-12' } },
+  { Words: 
+     { text: 'prophecy (as noun) – prophesy (valid as verb)[3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'publicly – publically[4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'quarantine – quarentine[3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'queue – que (from Bar-B-Que)[3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'questionnaire – questionaire, questionnair[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'readable – readible [8]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-MWread-8' } },
+  { Words: 
+     { text: 'really – realy[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'receive – recieve[1][4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'receipt – reciept [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'recommend – recomend, reccommend[1][4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'referred – refered [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'reference – referance, refrence [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'relevant – relevent, revelant[3][4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'religious – religous, religius[12]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-ACpC-12' } },
+  { Words: 
+     { text: 'repetition – repitition[12]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-ACpC-12' } },
+  { Words: 
+     { text: 'restaurant – restarant, restaraunt [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'rhyme – rime, ryme [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'rhythm – rythm, rythem[1][4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'secretary – secratary, secretery[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'seize – sieze[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'separate – seperate[1][4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'sergeant – sargent [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'similar – similer[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'skilful – skilfull (American: skillful)[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'speech – speach, speeche (archaic)[12]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-ACpC-12' } },
+  { Words: 
+     { text: 'successful – succesful, successfull, sucessful[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'supersede – supercede [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'surprise – suprise, surprize[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'their – there, they\'re [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'tomatoes – tomatos[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'tomorrow – tommorrow[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'twelfth – twelth [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'tyranny – tyrany [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'underrate – underate[4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'until – untill [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'upholstery – upholstry[4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'usable/useable – usible [9]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-MWus-9' } },
+  { Words: 
+     { text: 'vacuum – vaccuum, vacume [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'vegetarian – vegatarian[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'vehicle – vehical[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'vicious – visious[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'weather – wether [4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-YD-4' } },
+  { Words: 
+     { text: 'weird – wierd[1][4]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'welfare – wellfare, welfair[3]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-LM-3' } },
+  { Words: 
+     { text: 'whether – wether[3]',
+       href: 'http://en.wikipedia.org/wiki/Wether' } },
+  { Words: 
+     { text: 'wilful – wilfull (American: willful)[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'withhold – withold[1]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-AskO-1' } },
+  { Words: 
+     { text: 'writing – writting, writeing [12]',
+       href: 'http://en.wikipedia.org/wiki/#cite_note-ACpC-12' } } ]
