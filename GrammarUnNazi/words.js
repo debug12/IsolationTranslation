@@ -54,17 +54,14 @@ var parseWords = function(wordsArray){
 
 var parseCorrectlySpelledWord = function(arraySplitBySpaces){
 	if(arraySplitBySpaces[1] != '–' && arraySplitBySpaces[1] != '(UK:' && arraySplitBySpaces[1] != '(as'){ //remove silly strings from wikipedia
-			correctlySpelledWordKey = arraySplitBySpaces[0] + " " + arraySplitBySpaces[1];
 			return arraySplitBySpaces[0] + " " + arraySplitBySpaces[1];
+	}
+	else {
+		if(arraySplitBySpaces[0].indexOf('/') !== -1){
+			return arraySplitBySpaces[0].split('/')[0];
 		}
-		else {
-			if(arraySplitBySpaces[0].indexOf('/') !== -1){
-				correctlySpelledWordKey = arraySplitBySpaces[0].split('/')[0];
-				return arraySplitBySpaces[0].split('/')[0];
-			}
-			else{
-				correctlySpelledWordKey = arraySplitBySpaces[0];
-				return arraySplitBySpaces[0]
-			}
+		else{
+			return arraySplitBySpaces[0]
 		}
+	}
 }
