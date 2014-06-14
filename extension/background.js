@@ -1,4 +1,4 @@
-console.log("hi from background"); 
+var GOGGLES_APP = {};
 
 var goggles = {
   UnNazi: 0,
@@ -6,10 +6,10 @@ var goggles = {
   Racist: 2 
 };
 
-var state = goggles.Racist;
+GOGGLES_APP.state = goggles.Racist;
 
 chrome.runtime.onMessage.addListener(function(message,sender,sendResponse){
       sendResponse({
-        state: state
+        state: GOGGLES_APP.state
       });
 });
