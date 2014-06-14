@@ -5,7 +5,8 @@ var wordsArray = [];
 request("http://www.kimonolabs.com/api/c8w6goti?apikey=e476f7f5eb03cb4204125c51cbf04602", function(err, response, body) {
   words = JSON.parse(body);
   wordsArray = words.results.collection1;
-  parseWords(wordsArray);
+  var output = parseWords(wordsArray);
+  console.log(output);
 });
 
 var parseWords = function(wordsArray){
@@ -38,11 +39,16 @@ var parseWords = function(wordsArray){
 				isPartOfExplanation = false;
 				continue;
 			}
+			if(incorrectWordToParse === '') {
+				continue;
+			}
+			if(incorrectWordToParse === '-') {
+				continue;
+			}
+			incorrectWordToParse = incorrectWordToParse.replace(/[()]/g, '');
 			wordObj.incorrectlySpelledWord.push(incorrectWordToParse);
 		}
 		cleanedWordsArray.push(wordObj);
 	}
-
-	console.log(cleanedWordsArray);
-	return cleanedWordsArray;
+	return JSON.stringify(cleanedWordsArray);
 }
