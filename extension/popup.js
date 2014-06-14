@@ -1,3 +1,6 @@
+var background = chrome.extension.getBackgroundPage();
+var GOGGLES_APP = background.GOGGLES_APP;
+
 window.onload = function(){
 	var UnGrammarNazi = document.getElementById("UnGrammarNazi");
 	var GrammarNazi = document.getElementById("GrammarNazi");
@@ -5,20 +8,19 @@ window.onload = function(){
 	var Stupid = document.getElementById("Stupid");
 
 	UnGrammarNazi.onclick = function(){
-	        console.log("hi #1");
-		//Does some stuff
+	        GOGGLES_APP.state = 0;
 	}
 
 	GrammarNazi.onclick = function(){
-	        console.log("hi #2");
-		//does some other stuff
+	        GOGGLES_APP.state = 1;
 	}
 
 	Racist.onclick = function(){
-		console.log("hi #3");
+	        GOGGLES_APP.state = 2;
 	}
 
 	Stupid.onclick = function(){
+	        GOGGLES_APP.state = 3;
 		console.log("hi #4");
 	}
 }
