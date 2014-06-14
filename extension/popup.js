@@ -21,7 +21,4 @@ window.onload = function(){
 	Stupid.onclick = function(){
 		console.log("hi #4");
 	}
-
-
-
 }

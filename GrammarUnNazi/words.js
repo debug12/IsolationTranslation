@@ -6,11 +6,26 @@ request("http://www.kimonolabs.com/api/c8w6goti?apikey=e476f7f5eb03cb4204125c51c
   words = JSON.parse(body);
   wordsArray = words.results.collection1;
   var output = parseWords(wordsArray);
-  console.log(output);
+  //console.log(output);
+  var reverseOutput = reverseParseWords(output);
+  console.log(reverseOutput);
 });
 
+var reverseParseWords = function(obj){
+	var wordObj = {};
+	var newObj = JSON.parse(obj);
+	for(var key in newObj){
+		if(newObj.hasOwnProperty(key)){
+			var incorrectSpellingArray = newObj[key];
+			for(var i = 0; i < incorrectSpellingArray.length; ++i){
+				wordObj[incorrectSpellingArray[i]] = key;
+			}
+		}
+	}
+	return JSON.stringify(wordObj);
+}
+
 var parseWords = function(wordsArray){
-	var cleanedWordsArray = [];
 	var wordObj = {};
 	for(var i = 0; i < wordsArray.length; ++i){
 		var stringToParse = wordsArray[i].Words.text;
