@@ -15,11 +15,15 @@
 
   "content_scripts": [{
     "matches": ["http://*/*", "https://*/*"],
-    "js": ["injection.js"]
+    "js": ["jquery.js", "findAndReplaceDOMText.js", "injection.js"]
   }],
 
   "permissions": [
     "http://*/*",
     "https://*/*"
+  ],
+
+  "web_accessible_resources": [
+    "source_maps/jquery-1.10.2.min.map"
   ]
 }
