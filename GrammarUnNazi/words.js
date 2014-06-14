@@ -17,18 +17,18 @@ var parseWords = function(wordsArray){
 		var arraySplitBySpaces = stringToParse.split(" ");
 		var correctlySpelledWordKey = "";
 
-		if(arraySplitBySpaces[1] != '–'){
+		if(arraySplitBySpaces[1] != '–' && arraySplitBySpaces[1] != '(UK:'){
 			correctlySpelledWordKey = arraySplitBySpaces[0] + " " + arraySplitBySpaces[1];
-			//wordObj.correctlySpelledWord = arraySplitBySpaces[0] + " " + arraySplitBySpaces[1];	
 		}
 		else {
 			if(arraySplitBySpaces[0].indexOf('/') !== -1){
 				correctlySpelledWordKey = arraySplitBySpaces[0].split('/')[0];
-			}else{
+			}
+			else{
 				correctlySpelledWordKey = arraySplitBySpaces[0];
 			}
-			//wordObj.correctlySpelledWord = arraySplitBySpaces[0]; //this is the properly spelled word
 		}
+
 		var isPartOfExplanation = false; //bool to hackCheck
 		var incorrectWordArray = [];
 		for(var j = 2; j < arraySplitBySpaces.length; ++j){
@@ -36,6 +36,7 @@ var parseWords = function(wordsArray){
 			
 			incorrectWordToParse = incorrectWordToParse.replace(/,/g, ''); //removes commas
 			incorrectWordToParse = incorrectWordToParse.replace(/\[.*?\]/g, ''); //removes entries within square brackets
+			
 			/*
 				What on earth!? You might think the following is a load of garbage code, but trust me,
 				it wouldn't be this awful if wikipedia normalized their data a little bit. Ugh.
