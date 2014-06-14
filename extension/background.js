@@ -1,2 +1,9 @@
 console.log("hi from background"); 
-console.log(grammar_words[0]);
+
+var goggles = {
+  UnNazi: 0,
+  Nazi: 1,
+  Racist: 2 
+};
+
+var state = goggles.UnNazi;
