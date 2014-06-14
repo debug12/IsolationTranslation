@@ -17,7 +17,8 @@ chrome.runtime.sendMessage({greeting: "hello"}, function(response) {
 	find: new RegExp(regexp_str, "g"), 
 	replace: function(portion, match) {
 	  count++;
-	  return dict[match[0]][0];
+	  var index = getRandomInt(0, dict[match[0]].length-1);
+	  return dict[match[0]][index];
 	}
       });
 
@@ -25,3 +26,7 @@ chrome.runtime.sendMessage({greeting: "hello"}, function(response) {
     });
 
 });
+
+function getRandomInt(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+}
