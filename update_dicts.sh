@@ -6,5 +6,5 @@ node ./GrammarUnNazi/words.js >> ./extension/grammar.js
 echo 'var reverse_words = ' > ./extension/reverse.js
 node ./GrammarNazi/words.js >> ./extension/reverse.js
 
-echo 'var racial_words = ' > ./extension/racial.js
-node ./Racial/slur.js >> ./extension/racial.js
+echo 'var racist_words = ' > ./extension/racist.js
+node ./Racial/slur.js >> ./extension/racist.js

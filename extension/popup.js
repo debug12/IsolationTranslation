@@ -21,6 +21,5 @@ window.onload = function(){
 
 	Stupid.onclick = function(){
 	        GOGGLES_APP.state = 3;
-		console.log("hi #4");
 	}
 }

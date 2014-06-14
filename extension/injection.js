@@ -4,6 +4,7 @@ chrome.runtime.sendMessage({greeting: "hello"}, function(response) {
     var regexp_str = response.regexp;
     var dict = response.dict; 
 
+    console.log(regexp_str);
     $(document).ready(function(){
       var count = 0;
 
