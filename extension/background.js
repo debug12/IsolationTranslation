@@ -6,4 +6,10 @@ var goggles = {
   Racist: 2 
 };
 
-var state = goggles.UnNazi;
+var state = goggles.Racist;
+
+chrome.runtime.onMessage.addListener(function(message,sender,sendResponse){
+      sendResponse({
+        state: state
+      });
+});

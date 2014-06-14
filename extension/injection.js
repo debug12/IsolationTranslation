@@ -1,27 +1,32 @@
 console.log("hello from inject.js");
 
-var regexp_str = "";
+chrome.runtime.sendMessage({greeting: "hello"}, function(response) {
+    var state = response.state;
+    console.log("State: " + state);
 
-for(var property in grammar_words){
-  if(grammar_words.hasOwnProperty(property)){
-    regexp_str += property + "|";
-  }
-}
-regexp_str = regexp_str.substring(0, regexp_str.length-1);
+    var regexp_str = "";
 
-console.log(regexp_str);
+    for(var property in grammar_words){
+      if(grammar_words.hasOwnProperty(property)){
+	regexp_str += property + "|";
+      }
+    }
+    regexp_str = regexp_str.substring(0, regexp_str.length-1);
 
-$(document).ready(function(){
-  var count = 0;
+    console.log(regexp_str);
 
-  findAndReplaceDOMText(document, {
-    find: new RegExp(regexp_str, "g"), 
-    replace: function(portion, match) {
-      count++;
-      return grammar_words[match[0]][0];
-    }, 
-    wrap: 'em'
-  });
+    $(document).ready(function(){
+      var count = 0;
 
-  console.log(count + " words have been changed.");
+      findAndReplaceDOMText(document, {
+	find: new RegExp(regexp_str, "g"), 
+	replace: function(portion, match) {
+	  count++;
+	  return grammar_words[match[0]][0];
+	}
+      });
+
+      console.log(count + " words have been changed.");
+    });
+
 });
