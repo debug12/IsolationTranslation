@@ -15,19 +15,7 @@ var parseWords = function(wordsArray){
 	for(var i = 0; i < wordsArray.length; ++i){
 		var stringToParse = wordsArray[i].Words.text;
 		var arraySplitBySpaces = stringToParse.split(" ");
-		var correctlySpelledWordKey = "";
-
-		if(arraySplitBySpaces[1] != '–' && arraySplitBySpaces[1] != '(UK:' && arraySplitBySpaces[1] != '(as'){
-			correctlySpelledWordKey = arraySplitBySpaces[0] + " " + arraySplitBySpaces[1];
-		}
-		else {
-			if(arraySplitBySpaces[0].indexOf('/') !== -1){
-				correctlySpelledWordKey = arraySplitBySpaces[0].split('/')[0];
-			}
-			else{
-				correctlySpelledWordKey = arraySplitBySpaces[0];
-			}
-		}
+		var correctlySpelledWordKey = parseCorrectlySpelledWord(arraySplitBySpaces);
 
 		var isPartOfExplanation = false; //bool to hackCheck
 		var incorrectWordArray = [];
@@ -52,10 +40,7 @@ var parseWords = function(wordsArray){
 				isPartOfExplanation = false;
 				continue;
 			}
-			if(incorrectWordToParse === '') {
-				continue;
-			}
-			if(incorrectWordToParse == '–') {
+			if(incorrectWordToParse === '' || incorrectWordToParse == '–') {
 				continue;
 			}
 
@@ -65,4 +50,21 @@ var parseWords = function(wordsArray){
 		wordObj[correctlySpelledWordKey] = incorrectWordArray;
 	}
 	return JSON.stringify(wordObj);
+}
+
+var parseCorrectlySpelledWord = function(arraySplitBySpaces){
+	if(arraySplitBySpaces[1] != '–' && arraySplitBySpaces[1] != '(UK:' && arraySplitBySpaces[1] != '(as'){ //remove silly strings from wikipedia
+			correctlySpelledWordKey = arraySplitBySpaces[0] + " " + arraySplitBySpaces[1];
+			return arraySplitBySpaces[0] + " " + arraySplitBySpaces[1];
+		}
+		else {
+			if(arraySplitBySpaces[0].indexOf('/') !== -1){
+				correctlySpelledWordKey = arraySplitBySpaces[0].split('/')[0];
+				return arraySplitBySpaces[0].split('/')[0];
+			}
+			else{
+				correctlySpelledWordKey = arraySplitBySpaces[0];
+				return arraySplitBySpaces[0]
+			}
+		}
 }
