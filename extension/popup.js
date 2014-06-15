@@ -9,17 +9,21 @@ window.onload = function(){
 
 	UnGrammarNazi.onclick = function(){
 	        GOGGLES_APP.state = 0;
+		chrome.tabs.reload();
 	}
 
 	GrammarNazi.onclick = function(){
 	        GOGGLES_APP.state = 1;
+		chrome.tabs.reload();
 	}
 
 	Racist.onclick = function(){
 	        GOGGLES_APP.state = 2;
+		chrome.tabs.reload();
 	}
 
 	Stupid.onclick = function(){
 	        GOGGLES_APP.state = 3;
+		chrome.tabs.reload();
 	}
 }

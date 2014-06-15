@@ -50,6 +50,20 @@ for(var property in racist_words){
 regexp = regexp.substring(0, regexp.length - 1);
 GOGGLES_APP.Racist.regexp = regexp;
 
+//Doge vars
+GOGGLES_APP.Doge = {
+  state: goggles.Doge,
+  dict: doge_words
+};
+var regexp = "";
+for(var property in doge_words){
+  if(doge_words.hasOwnProperty(property)){
+    regexp += property + "|";
+  }
+}
+regexp = regexp.substring(0, regexp.length - 1);
+GOGGLES_APP.Doge.regexp = regexp;
+
 chrome.runtime.onMessage.addListener(function(message,sender,sendResponse){
      var state, regexp, dict;
 
@@ -65,6 +79,10 @@ chrome.runtime.onMessage.addListener(function(message,sender,sendResponse){
        state = 2,
        regexp = GOGGLES_APP.Racist.regexp,
        dict = GOGGLES_APP.Racist.dict
+     }else if(GOGGLES_APP.state == 3){
+       state = 3,
+       regexp = GOGGLES_APP.Doge.regexp,
+       dict = GOGGLES_APP.Doge.dict
      }
 
       sendResponse({

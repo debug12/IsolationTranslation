@@ -16,9 +16,11 @@ chrome.runtime.sendMessage({greeting: "hello"}, function(response) {
       findAndReplaceDOMText(document, {
 	find: new RegExp(regexp_str, "g"), 
 	replace: function(portion, match) {
+	    console.log(portion);
+	    console.log(match);
 	  count++;
-	  var index = getRandomInt(0, dict[match[0]].length-1);
-	  return dict[match[0]][index];
+	  var index = getRandomInt(0, dict[match[0].trim()].length-1);
+	  return dict[match[0].trim()][index];
 	}
       });
 
