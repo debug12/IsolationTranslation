@@ -1,4 +1,5 @@
-SterlingsGlasses
+Isolation Translation
 ================
+See the world through anyone's eyes.
 
-See the world through Donald Sterling's eyes.
+For comedy hack day 4, NYC. 
