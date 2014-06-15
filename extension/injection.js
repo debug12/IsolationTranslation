@@ -1,5 +1,4 @@
 console.log("hello from inject.js");
-
 chrome.runtime.sendMessage({greeting: "hello"}, function(response) {
     var regexp_str = response.regexp;
     var dict = response.dict; 
@@ -16,11 +15,13 @@ chrome.runtime.sendMessage({greeting: "hello"}, function(response) {
       findAndReplaceDOMText(document, {
 	find: new RegExp(regexp_str, "g"), 
 	replace: function(portion, match) {
-	    console.log(portion);
-	    console.log(match);
 	  count++;
-	  var index = getRandomInt(0, dict[match[0].trim()].length-1);
-	  return dict[match[0].trim()][index];
+	  if(response.state == 5){
+            return "HODOR ";
+	  }else{
+	      var index = getRandomInt(0, dict[match[0].trim()].length-1);
+	      return dict[match[0].trim()][index];
+	  }
 	}
       });
 

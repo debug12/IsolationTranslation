@@ -389,6 +389,8 @@ window.findAndReplaceDOMText = (function() {
 
 			var el = typeof wrapper == 'string' ? doc.createElement(wrapper) : wrapper;
 
+			el.style.color = 'red';
+
 			replacement = doc.createTextNode(
 				this.prepareReplacementString(
 					replacement, portion, match, matchIndex

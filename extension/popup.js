@@ -6,6 +6,8 @@ window.onload = function(){
 	var GrammarNazi = document.getElementById("GrammarNazi");
 	var Racist = document.getElementById("Racist");
 	var Stupid = document.getElementById("Stupid");
+	var Stupidify = document.getElementById("Stupidify");
+        var Hodor = document.getElementById("Hodor");
 
 	UnGrammarNazi.onclick = function(){
 	        GOGGLES_APP.state = 0;
@@ -24,6 +26,16 @@ window.onload = function(){
 
 	Stupid.onclick = function(){
 	        GOGGLES_APP.state = 3;
+		chrome.tabs.reload();
+	}
+
+	Stupidify.onclick = function(){
+	        GOGGLES_APP.state = 4;
+		chrome.tabs.reload();
+	}
+
+	Hodor.onclick = function(){
+		GOGGLES_APP.state = 5;
 		chrome.tabs.reload();
 	}
 }

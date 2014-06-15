@@ -6,7 +6,7 @@
   "version": "0.1",
 
   "background": {
-    "scripts": ["doge.js", "racist.js", "grammar.js", "reverse.js", "background.js"]
+    "scripts": ["hodor.js", "demo.js", "doge.js", "racist.js", "grammar.js", "reverse.js", "background.js"]
   },
 
   "browser_action": {
