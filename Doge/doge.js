@@ -4,4 +4,6 @@ var wordObj = {
 	to : ["much excite"]
 };
 
+/*LOL*/
+
 console.log(JSON.stringify(wordObj));
