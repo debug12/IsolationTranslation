@@ -7,7 +7,7 @@ var filter = function(filename){
 		for(var key in newObj){
 			if(newObj.hasOwnProperty(key)){
 				for(var i = 0; i < newObj[key].length; ++i){
-					if(newObj[key][i].indexOf("Nigger") != -1){
+					if(newObj[key][i].indexOf("******") != -1){
 						newObj[key].splice(i, 1);
 						i--;
 					}
